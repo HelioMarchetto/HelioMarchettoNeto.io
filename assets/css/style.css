@@ -1,0 +1,117 @@
+/*O uso do text-decoration: none foi necessário para não repetir código durante o projeto*/
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 204);
+    text-decoration: none;
+}
+body{
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+blockquote {
+    display: block;
+    margin-block-start: 5em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    unicode-bidi: isolate;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    padding-right: 5px;
+}
+
+.btn{
+    cursor: pointer;
+    color: black;
+}
+
+button.btnEnvio {
+    width: 100%;
+    padding: 10px;
+    background-color: darkolivegreen;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/*Padronizando o botão voltar para reaproveitar o código*/
+.btn-link {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 50px;
+    color: white;
+    background: darkolivegreen;
+    border: 1px solid gray;
+    border-radius: 8px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+/*Com essa classe consigo centralizar corretamente a div utilizada na maiorias das páginas do projeto*/
+.centralizado {
+    width: 60%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.centralizar-img{
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+
+h1{
+    margin-bottom: 20px;
+    font-size: 6rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    display: flexbox;
+}
+h2{
+    font-size: 5rem;
+}
+/* Utilizando o margin-bottom consigo eliminar a tag br que estava consumindo diversas linhas de código e se tornando um caso repetitivo*/
+p{
+    margin-bottom: 15px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+textarea {
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+input{
+    font-size: 20px;
+}
+
+h1 img{
+    float: right;
+    margin-left: 10px;
+    margin-top: 10px;
+}
